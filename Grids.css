@@ -1,0 +1,276 @@
+﻿body{
+    background-color: rgb(215, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.Grids{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-auto-rows: 300px;
+    grid-template-areas: 
+        'Daniel Daniel Jonathan Kira'
+        'Janette Patrick Patrick Kira';
+    gap: 30px;
+}
+
+.Daniel,.Jonathan,.Kira,.Janette,.Patrick{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;}
+
+.Daniel{
+    background-color: rgb(100, 57, 180);
+    grid-area: Daniel;
+    font-family: 'Signika', sans-serif;}
+
+    .Perfil-Daniel{
+        margin: 40px;
+        width: 178px;
+        height: 10px;
+        color: aliceblue;
+        font-size: 13px;
+        display: flex;
+        align-items: center;  
+    }
+    
+    .Daniel-Cillford{
+        width: 110px;
+    }
+    
+    .Daniel-Titulo{
+        color: aliceblue;
+        text-align: left;
+        margin: 40px;
+        font-size: 22px;
+        position: relative;  
+    }
+    
+    .Daniel-Subtitulo{
+        color: rgba(240, 248, 255, 0.534);
+        text-align: left;
+        margin: 40px;
+        font-size: 14px;
+        margin-top: -20px;}
+    
+    .Foto-Daniel{
+        margin-right: 20px;
+        width: 35px;
+        border-radius: 50%;}
+    
+    .Daniel-Cillford, .Foto-Daniel{
+        display: inline-block;
+    }
+    
+    .Aspas{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        transform: translateX(400%) translateY(20%);
+    }
+    
+
+.Jonathan{
+    background-color: rgb(74, 74, 94);
+    grid-area: Jonathan;
+    font-family: 'Signika', sans-serif;}
+
+    .Perfil-Jonathan{
+        margin: 40px;
+        width: 178px;
+        height: 10px;
+        color: aliceblue;
+        font-size: 13px;
+        display: flex;
+        align-items: center;  
+    }
+
+    .Jonathan-Walters{
+        width: 110px;
+    }
+
+    .Jonathan-Titulo{
+        color: aliceblue;
+        text-align: left;
+        margin: 40px;
+        font-size: 22px;
+        position: relative;  
+    }
+
+    .Jonathan-Subtitulo{
+        color: rgba(240, 248, 255, 0.534);
+        text-align: left;
+        margin: 40px;
+        font-size: 14px;
+        margin-top: -20px;}
+
+    .Foto-Jonathan{
+        margin-right: 20px;
+        width: 35px;
+        border-radius: 50%;}
+
+    .Jonathan-Walters, .Foto-Jonathan{
+        display: inline-block;
+    }
+
+.Kira{
+    background-color: white;
+    grid-area: Kira;
+    font-family: 'Signika', sans-serif;}
+
+    .Perfil-Kira{
+        margin: 40px;
+        width: 178px;
+        height: 10px;
+        color: rgb(104, 104, 104);
+        font-size: 13px;
+        display: flex;
+        align-items: center;  
+    }
+
+    .Kira-Whittle{
+        width: 110px;
+    }
+
+    .Kira-Titulo{
+        color: rgb(71, 71, 71);
+        text-align: left;
+        margin: 40px;
+        font-size: 22px;
+        position: relative;  
+    }
+
+    .Kira-Subtitulo{
+        color: rgba(61, 59, 59, 0.534);
+        text-align: left;
+        margin: 40px;
+        font-size: 15px;
+        margin-top: -20px;}
+
+    .Foto-Kira{
+        margin-right: 20px;
+        width: 35px;
+        border-radius: 50%;}
+
+    .Kira-Whittle, .Foto-Kira{
+        display: inline-block;
+    }
+
+.Patrick{
+    background-color: rgb(9, 6, 31);
+    grid-area: Patrick;
+    font-family: 'Signika', sans-serif;}
+
+    .Perfil-Patrick{
+        margin: 40px;
+        width: 178px;
+        height: 10px;
+        color: aliceblue;
+        font-size: 13px;
+        display: flex;
+        align-items: center;  
+    }
+
+    .Patrick-Abrams{
+        width: 110px;
+    }
+
+    .Patrick-Titulo{
+        color: aliceblue;
+        text-align: left;
+        margin: 40px;
+        font-size: 22px;
+        position: relative;  
+    }
+
+    .Patrick-Subtitulo{
+        color: rgba(240, 248, 255, 0.534);
+        text-align: left;
+        margin: 40px;
+        font-size: 14px;
+        margin-top: -20px;}
+
+    .Foto-Patrick{
+        margin-right: 20px;
+        width: 35px;
+        border-radius: 50%;}
+
+    .Patrick-Abrams, .Foto-Patrick{
+        display: inline-block;
+    }
+
+
+.Janette{
+    background-color: white;
+    grid-area: Janette;
+    font-family: 'Signika', sans-serif;}
+
+    .Perfil-Janette{
+        margin: 40px;
+        width: 178px;
+        height: 10px;
+        color: rgb(104, 104, 104);
+        font-size: 13px;
+        display: flex;
+        align-items: center;  
+    }
+
+    .Janette-Harmon{
+        width: 110px;
+    }
+
+    .Janette-Titulo{
+        color: rgb(71, 71, 71);
+        text-align: left;
+        margin: 40px;
+        font-size: 22px;
+        position: relative;  
+    }
+
+    .Janette-Subtitulo{
+        color: rgba(114, 114, 114, 0.534);
+        text-align: left;
+        margin: 40px;
+        font-size: 14px;
+        margin-top: -20px;}
+
+    .Foto-Janette{
+        margin-right: 20px;
+        width: 35px;
+        border-radius: 50%;}
+
+    .Janette-Harmon, .Foto-Janette{
+        display: inline-block;
+    }
+
+@media screen and (max-width: 1200px) {
+
+    .Grids{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-auto-rows: 300px;
+        grid-template-areas: 
+            'Daniel'
+            'Daniel'
+            'Jonathan'
+            'Kira'
+            'Kira'
+            'Janette'
+            'Patrick'
+            'Patrick';
+        gap: 30px;
+    }
+
+
+    
+    .Aspas{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        transform: translateX(140%) translateY(10%);
+    }
+    
+
+
+}
